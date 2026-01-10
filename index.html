@@ -1,18 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gráfica Online - Produtos gráficos de qualidade com entrega rápida">
-    <title>Gráfica Online - Impressões de Qualidade</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
+    <meta name="description" content="Gráfica Online - Produtos gráficos de qualidade com entrega rápida"> <!-- Descrição para SEO -->
+    <title>Gráfica Online - Impressões de Qualidade</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Importa o arquivo CSS -->
 </head>
 <body>
+    <!-- Cabeçalho do site -->
     <header class="header">
         <div class="container">
             <div class="logo">
-                <h1>GRÁFICA <span>PREMIUM</span></h1>
+                <h1>GRÁFICA <span>PREMIUM</span></h1> <!-- Logo da empresa -->
             </div>
+            <!-- Menu de navegação principal -->
             <nav class="nav" aria-label="Navegação principal">
                 <ul class="nav-list">
                     <li><a href="#inicio" class="nav-link">Início</a></li>
@@ -23,24 +25,28 @@
         </div>
     </header>
 
+    <!-- Conteúdo principal -->
     <main class="main">
+        <!-- Seção inicial (hero) -->
         <section id="inicio" class="hero">
             <div class="hero-content">
                 <h2 class="hero-title">Impressões que Fazem a Diferença</h2>
                 <p class="hero-subtitle">Qualidade Profissional Para o Seu Negócio</p>
-                <a href="#produtos" class="hero-btn">Ver Produtos</a>
+                <a href="#produtos" class="hero-btn">Ver Produtos</a> <!-- Botão que leva para produtos -->
             </div>
         </section>
 
+        <!-- Seção de produtos -->
         <section id="produtos" class="products">
             <div class="container">
                 <h2 class="section-title">Nossos Produtos</h2>
                 <p class="section-subtitle">Soluções Completas em Impressão</p>
                 
-                <div class="products-grid">
+                <div class="products-grid"> <!-- Grade de produtos -->
                     
+                    <!-- Produto 1 -->
                     <article class="product-card">
-                        <div class="product-badge">Popular</div>
+                        <div class="product-badge">Popular</div> <!-- Selo de destaque -->
                         <div class="product-image">
                             <img src="img/cartao-4x4.png" alt="Cartões de visita em papel couché com acabamento de qualidade">
                         </div>
@@ -54,6 +60,7 @@
                         </div>
                     </article>
 
+                    <!-- Produto 2 -->
                     <article class="product-card">
                         <div class="product-badge">Oferta</div>
                         <div class="product-image">
@@ -69,6 +76,7 @@
                         </div>
                     </article>
 
+                    <!-- Produto 3 -->
                     <article class="product-card">
                         <div class="product-image">
                             <img src="img/178_a68j2qh5pjq04hsay65ea.jpg" alt="Banner de lona resistente para uso externo">
@@ -83,6 +91,7 @@
                         </div>
                     </article>
 
+                    <!-- Produto 4 -->
                     <article class="product-card">
                         <div class="product-badge">Novo</div>
                         <div class="product-image">
@@ -102,38 +111,43 @@
             </div>
         </section>
 
+        <!-- Seção de contato -->
         <section id="contato" class="contact">
             <div class="container">
                 <h2 class="section-title">Entre em Contato</h2>
                 <p class="section-subtitle">Estamos prontos para atender você</p>
                 
                 <div class="contact-grid">
+                    <!-- Cartão de contato: telefone -->
                     <div class="contact-card">
                         <div class="contact-icon">
+                            <!-- Ícone SVG de telefone -->
                             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 ..."/>
                             </svg>
                         </div>
                         <h3>Telefone</h3>
                         <p>(81) 3333-4444</p>
                     </div>
 
+                    <!-- Cartão de contato: email -->
                     <div class="contact-card">
                         <div class="contact-icon">
+                            <!-- Ícone SVG de email -->
                             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12 ..."/>
                             </svg>
                         </div>
                         <h3>Email</h3>
                         <p>contato@graficapremium.com.br</p>
                     </div>
 
+                    <!-- Cartão de contato: endereço -->
                     <div class="contact-card">
                         <div class="contact-icon">
+                            <!-- Ícone SVG de localização -->
                             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
+                                <path d="M21 10c0 7-9 13-9 13s-9-6 ..."/>
                             </svg>
                         </div>
                         <h3>Endereço</h3>
@@ -144,6 +158,7 @@
         </section>
     </main>
 
+    <!-- Rodapé -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
