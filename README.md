@@ -19,7 +19,6 @@ grafica-ecommerce/
 │   └── adesivo.jpg
 └── README.md
 
-
 ## Funcionalidades
 - Header com navegação (Início, Produtos, Contato)
 - Seção hero com destaque da empresa
