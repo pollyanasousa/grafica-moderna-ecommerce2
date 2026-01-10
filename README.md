@@ -7,7 +7,7 @@ Site de e-commerce para uma gráfica online, apresentando produtos como cartões
 O objetivo é aplicar boas práticas de semântica, responsividade e acessibilidade.
 
 ## Estrutura
-
+```text
 grafica-ecommerce/
 ├── index.html
 ├── css/
@@ -18,7 +18,7 @@ grafica-ecommerce/
 │   ├── banner.jpg
 │   └── adesivo.jpg
 └── README.md
-
+```
 ## Funcionalidades
 - Header com navegação (Início, Produtos, Contato)
 - Seção hero com destaque da empresa
