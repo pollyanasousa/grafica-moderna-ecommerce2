@@ -19,23 +19,28 @@ grafica-ecommerce/
 │   └── adesivo.jpg
 └── README.md
 
+
 ## Funcionalidades
-- Header com navegação (Início, Produtos, Contato)  
-- Seção hero com destaque da empresa  
-- Grade responsiva com 4 produtos gráficos  
-- Cada produto contém imagem, nome, descrição, preço e botão de compra  
-- Seção de contato com telefone, email e endereço  
-- Rodapé com direitos autorais e informações institucionais  
+- Header com navegação (Início, Produtos, Contato)
+- Seção hero com destaque da empresa
+- Grade responsiva com 4 produtos gráficos
+- Cada produto contém imagem, nome, descrição, preço e botão de compra
+- Seção de contato com telefone, email e endereço
+- Rodapé com direitos autorais e informações institucionais
 
 ## Requisitos atendidos
-- HTML semântico (header, main, section, article, footer, nav)  
-- CSS limpo e organizado  
-- Responsividade para desktop, tablet e mobile  
-- Acessibilidade: alt em imagens, contraste adequado, estrutura semântica  
+- HTML semântico (header, main, section, article, footer, nav)
+- CSS limpo e organizado
+- Layout responsivo que se adapta a diferentes tamanhos de tela
+- Acessibilidade: alt em imagens, contraste adequado, estrutura semântica
 
 ## Tecnologias
-- HTML5  
-- CSS3  
+- HTML5
+- CSS3
+
+## Visualização online
+Acesse o projeto publicado via GitHub Pages:  
+https://pollyanasousa.github.io/grafica-moderna-ecommerce/
 
 ## Licença
 Projeto de uso educacional.
